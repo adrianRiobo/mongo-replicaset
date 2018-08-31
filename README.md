@@ -17,5 +17,5 @@ As initial approach we just use a 3 node replicaset so they have fixed identific
 **COORDINATOR** Set to true in one node (it will initiate the replicaset)  
 **PRIMARY** node 1 IP:PORT  
 **SECONDARY_01** node 2 IP:PORT  
-**SECONDARY_02** node 3 IP:PORT  
+**SECONDARY_02** node 3 IP:PORT    
 
