@@ -38,7 +38,7 @@ mongodb_exporter
 }
 
 #Hacky config background process executed once mongo is started
-https://github.com/docker-library/mongo/issues/249#issuecomment-381786889
+#https://github.com/docker-library/mongo/issues/249#issuecomment-381786889
 if $COORDINATOR ; then
     echo 'Es coordinador'
     configureRs &

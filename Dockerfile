@@ -29,9 +29,9 @@ ENV COORDINATOR false
 RUN apt-get update -y \
     && apt-get install -y gettext-base
 
-ENV PRIMARY 
-ENV SECONDARY_01 
-ENV SECONDARY_02
+#ENV PRIMARY 
+#ENV SECONDARY_01 
+#ENV SECONDARY_02
 
 COPY init.sh /docker-entrypoint-initdb.d/
 COPY rs_initiate.js.template /tmp
